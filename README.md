@@ -52,7 +52,9 @@ Figure 6 represents individual component stiffness's effect on global joint stif
 |:--:| :--:|
 |*Influence of individual component stiffness with variation in plate thickness. *|*variation in plate thicknes plate width.*|
 
-
+## Conclusion
+1. In this paper, we presented a theoretical model to predict the joint stiffness of three different types of screw lap joints where the use of correction factors for stiffness estimation as adopted in existing literature are completely removed.
+2. Also, the influence of the plate thickness and plate width on the overall joint stiffness was analyzed. We found that plate stiffness has more influence on overall joint stiffness in thin plate joints, whereas in joints with thicker plates, screw stiffness (bending stiffness) dominates the overall joint stiffness.
 
 
 

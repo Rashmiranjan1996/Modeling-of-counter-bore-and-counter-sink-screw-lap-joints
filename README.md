@@ -11,7 +11,7 @@ This paper presents an analytical approach to predict the mechanical behavior of
 Here we intended to obtain an analytical expression for the total deformation in the joint when an axial load P is applied at one end of a screw lap joint, presented in Figure 1. When the joint is under external loading as shown in Figure 3, the plates experience tensile and bearing load. At the same time, the screw resists the combined effect of shear, bearing, and bending loads. The total deformation in the joint is contributed by each of these loads experienced by the plates and the screw. Thus, the complex deformation at the joint can be simplified and represented using a lumped spring model (Figure 3), where there is a spring to account for every mode of deformation in the plates and the screw.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/110676380/183098955-24e81b34-5582-4333-b733-320699db05bb.jpg" width="450">
+  <img src="https://user-images.githubusercontent.com/110676380/183098955-24e81b34-5582-4333-b733-320699db05bb.jpg" width="350">
   
   <em>Forces developed in a screw lap joint with an axial load, P [Note: The arrows indicate the region in which the forces
 are developed].</em>
@@ -20,7 +20,7 @@ are developed].</em>
 Employing classical mechanics theories such as Timoshenko beammodel, Castiglianlo's theorem, each deformation component are evalutaed.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/110676380/183100379-92596333-d0d0-4288-99eb-4a7b0eb905e9.jpg" width="550">
+  <img src="https://user-images.githubusercontent.com/110676380/183100379-92596333-d0d0-4288-99eb-4a7b0eb905e9.jpg" width="450">
   
   <em>Mass-spring model representation of screw lap joint.</em>
 </p>
@@ -32,7 +32,7 @@ FEA studies were conducted with the aid of ABAQUS software (Version-2018). The c
 Figure 4. Here, both the plates and screw were modeled using eight-node linear brick elements (C3D8R). In total 45278 elements are used to develop the entire joint assembly while ensuring a finer mesh near the joint area.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/110676380/183102385-715837e3-8d1b-4396-b75b-eb1c2ef0ff5c.png" width="550">
+  <img src="https://user-images.githubusercontent.com/110676380/183102385-715837e3-8d1b-4396-b75b-eb1c2ef0ff5c.png" width="450">
   
   <em>3D Finite element model of joint configuration and counter-bore and countersink screws .</em>
 </p>
@@ -56,8 +56,10 @@ Figure 6 represents individual component stiffness's effect on global joint stif
 1. In this paper, we presented a theoretical model to predict the joint stiffness of three different types of screw lap joints where the use of correction factors for stiffness estimation as adopted in existing literature are completely removed.
 2. Also, the influence of the plate thickness and plate width on the overall joint stiffness was analyzed. We found that plate stiffness has more influence on overall joint stiffness in thin plate joints, whereas in joints with thicker plates, screw stiffness (bending stiffness) dominates the overall joint stiffness.
 
-
-
+## Selected References
+1. Nelson, W. D., B. L. Bunin, and L. J. Hart-Smith. 1983. Critical joints in large composite aircraft structure, NASA CR-3710. Nasa.
+2. McCarthy, C. T., and P. J. Gray. 2011. An analytical model for the prediction of load distribution in highly torqued multi-bolt composite joints. Composite Structures.93 (2):287–98.
+3. Wang, P., T. Wulan, M. Liu, H. Qu, and Y. You. 2019. Shear behavior of lap connection using one-side bolts. Engineering Structures 186:64–85. 
 
 
 
